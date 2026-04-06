@@ -92,9 +92,9 @@ navLinkItems.forEach((link) => {
    TYPING EFFECT
 ========================= */
 const words = [
-  "startup websites.",
-  "landing pages that convert.",
-  "MVPs and dashboards.",
+  "corporate business websites.",
+  "Responsive website design.",
+  "MVPs and ecommerce website.",
   "payment-ready web products."
 ];
 
@@ -310,9 +310,9 @@ if (contactForm) {
     e.preventDefault();
 
     if (
-      EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY" ||
-      EMAILJS_SERVICE_ID === "YOUR_SERVICE_ID" ||
-      EMAILJS_TEMPLATE_ID === "YOUR_TEMPLATE_ID"
+      EMAILJS_PUBLIC_KEY === "qdEBRMtZ2MshSKDoH" ||
+      EMAILJS_SERVICE_ID === "service_pslal4q" ||
+      EMAILJS_TEMPLATE_ID === "template_kc8s5do"
     ) {
       showToast("Add your EmailJS Public Key, Service ID, and Template ID first.");
       return;
